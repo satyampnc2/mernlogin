@@ -1,0 +1,112 @@
+input:focus,select:focus,option:focus{
+    outline: none;
+}
+option{
+    border: none;
+    outline: none;
+}
+option:hover{
+    outline: none;
+    border: none;
+}
+.dash-container{
+    height: 90%;
+    background: linear-gradient(to right bottom,#F2C94C,#F2994A);
+    padding: 0 15%;
+}
+
+.todoHeader{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.addTodo{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-input{
+    padding: 1rem;
+    border: none;
+}
+.todo-button{
+    border: none;
+    background-color:white;
+    padding: 1rem;
+}
+.todo-button:hover{
+    background-color: #F2994A;
+}
+.todo-button:hover .plusIcon{
+    color: white;
+}
+.plusIcon{
+    color: #F2994A;
+    transform: scale(1.7);
+}
+
+.filter{
+    margin-left: 20px;
+    position: relative;
+}
+
+.filter::after{
+    content: "\25BC";
+    position: absolute;
+    background: #ff6f47;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    color: white;
+    transition: all .5s ease;
+}
+
+.filter:hover::after{
+    background-color: #F2994A;
+}
+
+.todo-select{
+    appearance: none;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 200px;
+    color: #F2994A;
+    background-color: white;
+}
+
+.todoList{
+    list-style: none;
+}
+
+.todo-item{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.todo-item-text{
+    flex:1;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.todo-item button{
+    border: none;
+    padding: .8rem;
+}
+
+.check{
+    background-color: rgb(140, 223, 140);
+}
+.delete{
+    background-color: red;
+}

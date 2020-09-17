@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container-fluid{
+  height: 100vh;
+  padding:0 !important;
+  background: linear-gradient(to bottom right,#D3CCE3,#E9E4F0);
+}

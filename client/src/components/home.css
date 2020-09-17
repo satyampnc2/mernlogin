@@ -1,0 +1,15 @@
+.home{
+    height: 90%;
+}
+
+.box{
+    height: 20vh;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    line-height: 20vh;
+    transform: translate(-50%,-50%);
+}
